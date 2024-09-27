@@ -1,8 +1,8 @@
 {
-  "name": "com.ddemon26.toolkithelper",
-  "displayName": "TC ToolKit Helper",
+  "name": "com.tcs.uitoolkitutils",
+  "displayName": "TCS-UIToolKit-Utils",
   "description": "ToolKit Helper is a tool that helps you manage your toolkit attributes in the inspector.",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "keywords": [
     "Toolkit",
     "attribute",
@@ -10,11 +10,11 @@
     "manager",
     "editor"
   ],
-  "category": "toolkit helper",
+  "category": "Tent City Studio",
   "dependencies": {},
   "author": {
     "name": "Damon Fedorick",
-    "url": "https://github.com/Ddemon26/ToolKit-Helper"
+    "url": "https://github.com/Ddemon26/TCS-UIToolKit-Utils"
   },
-  "documentationUrl": "https://github.com/Ddemon26/ToolKit-Helper/blob/main/README.md"
+  "documentationUrl": "https://github.com/Ddemon26/TCS-UIToolKit-Utils/blob/main/README.md"
 }
