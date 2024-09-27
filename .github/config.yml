@@ -1,0 +1,5 @@
+repository:
+  tabs:
+    - id: Changelog-tab
+      title: Changelog
+      path: /CHANGELOG.md

@@ -1,0 +1,20 @@
+{
+  "name": "com.ddemon26.toolkithelper",
+  "displayName": "TC ToolKit Helper",
+  "description": "ToolKit Helper is a tool that helps you manage your toolkit attributes in the inspector.",
+  "version": "1.0.2",
+  "keywords": [
+    "Toolkit",
+    "attribute",
+    "inspector",
+    "manager",
+    "editor"
+  ],
+  "category": "toolkit helper",
+  "dependencies": {},
+  "author": {
+    "name": "Damon Fedorick",
+    "url": "https://github.com/Ddemon26/ToolKit-Helper"
+  },
+  "documentationUrl": "https://github.com/Ddemon26/ToolKit-Helper/blob/main/README.md"
+}
