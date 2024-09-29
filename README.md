@@ -7,24 +7,24 @@
 #### Git URL
 
 ```
-https://github.com/Ddemon26/ToolKit-Helper.git
+https://github.com/Ddemon26/TCS-UIToolKit-Utils
 ```
 
 ***
 ![Banner Image](https://via.placeholder.com/1000x300.png?text=assets+Enum+Library+Editor+for+Unity)
 ***
 
-![GitHub Forks](https://img.shields.io/github/forks/Ddemon26/ToolKit-Helper)
-![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/ToolKit-Helper)
-![GitHub Stars](https://img.shields.io/github/stars/Ddemon26/ToolKit-Helper)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/Ddemon26/ToolKit-Helper)
+![GitHub Forks](https://img.shields.io/github/forks/Ddemon26/TCS-UIToolKit-Utils)
+![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/TCS-UIToolKit-Utils)
+![GitHub Stars](https://img.shields.io/github/stars/Ddemon26/TCS-UIToolKit-Utils)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/Ddemon26/TCS-UIToolKit-Utils)
 [![Join our Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?logo=discord&logoColor=white)](https://discord.gg/knwtcq3N2a)
 ![Discord](https://img.shields.io/discord/1047781241010794506)
 
-![GitHub Issues](https://img.shields.io/github/issues/Ddemon26/ToolKit-Helper)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Ddemon26/ToolKit-Helper)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/Ddemon26/ToolKit-Helper)
-![GitHub License](https://img.shields.io/github/license/Ddemon26/ToolKit-Helper)
+![GitHub Issues](https://img.shields.io/github/issues/Ddemon26/TCS-UIToolKit-Utils)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Ddemon26/TCS-UIToolKit-Utils)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/Ddemon26/TCS-UIToolKit-Utils)
+![GitHub License](https://img.shields.io/github/license/Ddemon26/TCS-UIToolKit-Utils)
 
 
 ## 🚀 **ToolKit Helper** — Elevate Your Unity Workflow with Automation!
