@@ -33,8 +33,6 @@ ToolKit Helper is a **game-changing** Unity Editor tool that simplifies the tedi
 
 Say goodbye to manual labor—ToolKit Helper automates the process of **parsing**, **previewing**, and **generating code** for UXML and StyleSheet assets!
 
-![Demo GIF](https://media.giphy.com/media/l4Ep6KDbnTvdhGMP6/giphy.gif)
-
 ## 🔥 **Key Features**
 - 🖼️ **UXML Element Parser**: Automatically extract element names from your UXML files and generate C# classes for direct access in code.
 - 🔧 **StyleSheet Class Extractor**: Seamlessly parse StyleSheet class names and create constants to ensure styling is easily applied programmatically.
