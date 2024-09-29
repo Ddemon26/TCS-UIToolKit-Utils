@@ -56,8 +56,9 @@ Say goodbye to manual labor—ToolKit Helper automates the process of **parsing*
 
 ## 🎮 **Usage**
 
- <img src="https://github.com/user-attachments/assets/fae4cc9b-8509-4ae3-9f8f-ea348f94a0e1" width="400" height="325">
- <img src="https://github.com/user-attachments/assets/3b36e650-cbe8-4fe0-baf4-920c333c13d2" width="400" height="325">
+ <img src="https://github.com/user-attachments/assets/a02015f7-ace6-40e5-86ed-c915790b9437" width="400" height="325">
+ <img src="https://github.com/user-attachments/assets/962d3115-d067-4ba2-8eda-0d8a3bb187e7" width="400" height="325">
+
  
 1. **Open the Tool**: Go to `Tools > UIToolKit Helper` in the Unity menu.
 2. **Select Your Files**: Choose a StyleSheet or UXML file that you want to parse.
