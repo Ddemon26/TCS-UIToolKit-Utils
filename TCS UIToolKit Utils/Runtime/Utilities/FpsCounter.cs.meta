@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 005066e0da4d5464a8e52970ac76a52e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 231178
+  packageName: Dragon Crashers - UI Toolkit Sample project
+  packageVersion: 1.42
+  assetPath: Assets/Scripts/Utilities/FpsCounter.cs
+  uploadId: 666862

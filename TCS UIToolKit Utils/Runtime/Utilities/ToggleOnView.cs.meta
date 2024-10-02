@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 27e2fced72ea144d293a25f5ef9e9908
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 231178
+  packageName: Dragon Crashers - UI Toolkit Sample project
+  packageVersion: 1.42
+  assetPath: Assets/Scripts/Utilities/ToggleOnView.cs
+  uploadId: 666862

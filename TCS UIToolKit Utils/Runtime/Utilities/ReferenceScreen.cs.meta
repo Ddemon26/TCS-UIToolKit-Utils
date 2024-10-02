@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 53ddfe2de741fb940bd31ae8ee029516
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 231178
+  packageName: Dragon Crashers - UI Toolkit Sample project
+  packageVersion: 1.42
+  assetPath: Assets/Scripts/Utilities/ReferenceScreen.cs
+  uploadId: 666862

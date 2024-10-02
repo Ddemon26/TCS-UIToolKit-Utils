@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 563d05fc3ed044f739e50502f9a373a1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 13
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 231178
+  packageName: Dragon Crashers - UI Toolkit Sample project
+  packageVersion: 1.42
+  assetPath: Assets/Scripts/Utilities/PositionToVisualElement.cs
+  uploadId: 666862
