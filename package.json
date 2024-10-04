@@ -3,13 +3,7 @@
   "displayName": "TCS-UIToolKit-Utils",
   "description": "ToolKit Helper is a tool that helps you manage your toolkit attributes in the inspector.",
   "version": "1.0.1",
-  "keywords": [
-    "Toolkit",
-    "attribute",
-    "inspector",
-    "manager",
-    "editor"
-  ],
+  "keywords": ["Toolkit", "attribute", "inspector", "manager", "editor"],
   "category": "Tent City Studio",
   "dependencies": {},
   "author": {
