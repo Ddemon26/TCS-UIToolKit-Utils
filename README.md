@@ -1,13 +1,17 @@
 # UIToolKit Util Library
 
+![Unity Version](https://img.shields.io/badge/Unity-2022.3+-black.svg?style=for-the-badge&logo=unity) ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge) ![Language](https://img.shields.io/badge/Language-C%23-blue?style=for-the-badge) ![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/TCS-UIToolKit-Utils?style=for-the-badge) ![GitHub Last Commit](https://img.shields.io/github/last-commit/Ddemon26/TCS-UIToolKit-Utils?style=for-the-badge) ![Project Status](https://img.shields.io/badge/Project%20Status-Stable-green?style=for-the-badge)
+
 ## Overview
 
-The UIToolKit Util Library provides an advanced Unity Editor utility meticulously designed to automate the generation of static classes from UXML and Unity StyleSheet files. Utilizing the **Odin Inspector** extension, this tool significantly streamlines the process of converting user interface elements into accessible C# constants. The resultant code is more comprehensible, easier to maintain, and markedly efficient.
+The UIToolKit Util Library provides an advanced Unity Editor utility meticulously designed to automate the generation of static classes from UXML and Unity StyleSheet files. This tool significantly streamlines the process of converting user interface elements into accessible C# constants, resulting in code that is more comprehensible, easier to maintain, and markedly efficient.
 
 This tool represents an evolution in Unity Editor customization, facilitating the automation of **parsing**, **previewing**, and **code generation** for UXML and StyleSheet assets, thereby enhancing developer productivity and mitigating the risk of human error.
 
 ---
+
 ![UI ToolKit Banner](https://github.com/user-attachments/assets/96359568-b36c-4694-984f-70ad70cba669)
+
 ---
 
 ## 🚀 ToolKit Helper — Elevate Your Unity Workflow with Automation!
@@ -26,7 +30,6 @@ https://github.com/Ddemon26/TCS-UIToolKit-Utils
 
 - **Automatic Static Class Generation**: Automatically produces static classes from UXML and StyleSheets, eliminating the need for manual coding.
 - **Preview System**: Provides an integrated mechanism to visualize UXML and StyleSheets within the Unity Editor, ensuring a more intuitive workflow.
-- **Odin Inspector Integration**: Leverages Odin Inspector's capabilities to deliver a more interactive and configurable user interface.
 - **Customizable Output**: Offers the flexibility to specify custom namespaces and output file paths for generated classes, providing greater control over code structure.
 - **Regex-Based Style Extraction**: Utilizes sophisticated regex parsing to extract class names from StyleSheets, thereby accelerating the coding process.
 
@@ -35,10 +38,10 @@ https://github.com/Ddemon26/TCS-UIToolKit-Utils
 To begin, clone the repository and integrate the package into your Unity project environment.
 
 ```bash
-https://github.com/Ddemon26/TCS-UIToolKit-Utils
+git clone https://github.com/Ddemon26/TCS-UIToolKit-Utils
 ```
 
-This utility requires **Unity 2022.3+** and **Odin Inspector**.
+This utility requires **Unity 2022.3+**.
 
 ## 📖 Usage
 
@@ -54,7 +57,7 @@ This utility requires **Unity 2022.3+** and **Odin Inspector**.
 
 ### 1. ParserHelpers
 
-Responsible for the parsing of UXML and StyleSheet files:
+Responsible for parsing UXML and StyleSheet files:
 
 - **CreateTextArea**: Generates a textual preview interface within the Unity editor environment.
 - **ExtractNamesFromUxml**: Traverses a UXML structure to extract UI element identifiers.
