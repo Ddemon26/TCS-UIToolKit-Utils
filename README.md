@@ -1,7 +1,11 @@
 # UIToolKit Util Library
 
-![Unity Version](https://img.shields.io/badge/Unity-2022.3+-black.svg?style=for-the-badge&logo=unity) ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge) ![Language](https://img.shields.io/badge/Language-C%23-blue?style=for-the-badge) ![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/TCS-UIToolKit-Utils?style=for-the-badge) ![GitHub Last Commit](https://img.shields.io/github/last-commit/Ddemon26/TCS-UIToolKit-Utils?style=for-the-badge) ![Project Status](https://img.shields.io/badge/Project%20Status-Stable-green?style=for-the-badge)
+![Unity](https://img.shields.io/badge/Unity-2022.3+-black.svg?style=for-the-badge&logo=unity)
+![Contributions welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)
+[![Odin Inspector](https://img.shields.io/badge/Odin_Inspector-Required-blue?style=for-the-badge)](https://odininspector.com/)
 
+![Unity Version](https://img.shields.io/badge/Unity-2022.3+-black.svg?style=for-the-badge&logo=unity) ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge) ![Language](https://img.shields.io/badge/Language-C%23-blue?style=for-the-badge) ![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/TCS-UIToolKit-Utils?style=for-the-badge) ![GitHub Last Commit](https://img.shields.io/github/last-commit/Ddemon26/TCS-UIToolKit-Utils?style=for-the-badge)
+![Status - Pre-Release](https://img.shields.io/badge/Status-Pre--Release-FFFF00?style=for-the-badge)
 ## Overview
 
 The UIToolKit Util Library provides an advanced Unity Editor utility meticulously designed to automate the generation of static classes from UXML and Unity StyleSheet files. This tool significantly streamlines the process of converting user interface elements into accessible C# constants, resulting in code that is more comprehensible, easier to maintain, and markedly efficient.
@@ -16,7 +20,6 @@ This tool represents an evolution in Unity Editor customization, facilitating th
 
 ## 🚀 ToolKit Helper — Elevate Your Unity Workflow with Automation!
 
-### Git URL
 
 ```
 https://github.com/Ddemon26/TCS-UIToolKit-Utils
