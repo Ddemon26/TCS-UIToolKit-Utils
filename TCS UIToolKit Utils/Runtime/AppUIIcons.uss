@@ -30,6 +30,8 @@
     --appui-icon-warning-fill: url("project:/Packages/com.unity.dt.app-ui/PackageResources/Icons/Fill/Warning.png");
     --appui-icon-x-regular: url("project:/Packages/com.unity.dt.app-ui/PackageResources/Icons/Regular/X.png");
 /* Additional icons */
+    --appui-icon-circle-regular: url("project:/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle.png");
+    --appui-icon-do-tween-mini-icon-regular: url("project:/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png");
 }
 
 .appui-icon--calendar--regular {
@@ -134,5 +136,13 @@
 
 .appui-icon--x--regular {
     --unity-image: var(--appui-icon-x-regular);
+}
+
+.appui-icon--circle--regular {
+    --unity-image: var(--appui-icon-circle-regular);
+}
+
+.appui-icon--do-tween-mini-icon--regular {
+    --unity-image: var(--appui-icon-do-tween-mini-icon-regular);
 }
 

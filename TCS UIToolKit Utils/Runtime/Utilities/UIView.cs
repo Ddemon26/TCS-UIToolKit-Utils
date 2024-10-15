@@ -64,6 +64,7 @@ namespace UIToolkitDemo
         // Hides the UI.
         public virtual void Hide()
         {
+            //this here sets your flex box to none, hiding the UI
             m_TopElement.style.display = DisplayStyle.None;
         }
 
