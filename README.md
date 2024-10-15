@@ -1,120 +1,59 @@
-# UIToolKit Util Library
 
-<<<<<<< Updated upstream
-![Unity](https://img.shields.io/badge/Unity-2022.3+-black.svg?style=for-the-badge&logo=unity)
-![Contributions welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)
-[![Odin Inspector](https://img.shields.io/badge/Odin_Inspector-Required-blue?style=for-the-badge)](https://odininspector.com/)
+# TCS UI Toolkit Utils
 
-#### Git URL
-=======
-![Unity Version](https://img.shields.io/badge/Unity-2022.3+-black.svg?style=for-the-badge&logo=unity) ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge) ![Language](https://img.shields.io/badge/Language-C%23-blue?style=for-the-badge) ![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/TCS-UIToolKit-Utils?style=for-the-badge) ![GitHub Last Commit](https://img.shields.io/github/last-commit/Ddemon26/TCS-UIToolKit-Utils?style=for-the-badge)
-![Status - Pre-Release](https://img.shields.io/badge/Status-Pre--Release-FFFF00?style=for-the-badge)
-## Overview
-
-The UIToolKit Util Library provides an advanced Unity Editor utility meticulously designed to automate the generation of static classes from UXML and Unity StyleSheet files. This tool significantly streamlines the process of converting user interface elements into accessible C# constants, resulting in code that is more comprehensible, easier to maintain, and markedly efficient.
-
-This tool represents an evolution in Unity Editor customization, facilitating the automation of **parsing**, **previewing**, and **code generation** for UXML and StyleSheet assets, thereby enhancing developer productivity and mitigating the risk of human error.
-
----
-
-![UI ToolKit Banner](https://github.com/user-attachments/assets/96359568-b36c-4694-984f-70ad70cba669)
-
----
-
-## 🚀 ToolKit Helper — Elevate Your Unity Workflow with Automation!
-
-### Git URL
->>>>>>> Stashed changes
-
-```
-https://github.com/Ddemon26/TCS-UIToolKit-Utils
-```
-
-***
-![UI ToolKit Banner](https://github.com/user-attachments/assets/96359568-b36c-4694-984f-70ad70cba669)
-***
-
+[![Join our Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?logo=discord&logoColor=white)](https://discord.gg/knwtcq3N2a)
+![Discord](https://img.shields.io/discord/1047781241010794506)
 ![GitHub Forks](https://img.shields.io/github/forks/Ddemon26/TCS-UIToolKit-Utils)
 ![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/TCS-UIToolKit-Utils)
 ![GitHub Stars](https://img.shields.io/github/stars/Ddemon26/TCS-UIToolKit-Utils)
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/Ddemon26/TCS-UIToolKit-Utils)
-[![Join our Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?logo=discord&logoColor=white)](https://discord.gg/knwtcq3N2a)
-![Discord](https://img.shields.io/discord/1047781241010794506)
 
-![GitHub Issues](https://img.shields.io/github/issues/Ddemon26/TCS-UIToolKit-Utils)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Ddemon26/TCS-UIToolKit-Utils)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/Ddemon26/TCS-UIToolKit-Utils)
-![GitHub License](https://img.shields.io/github/license/Ddemon26/TCS-UIToolKit-Utils)
+## Overview
 
+**TCS UI Toolkit Utils** is a powerful Unity Editor extension designed to streamline UI Toolkit workflows. By leveraging the capabilities of Unity's UXML and StyleSheet assets, this utility provides automation tools for parsing, previewing, and code generation. It significantly enhances developer productivity by reducing manual tasks and minimizing the potential for human error.
 
-## 🚀 **ToolKit Helper** — Elevate Your Unity Workflow with Automation!
+![UI ToolKit Banner](https://github.com/user-attachments/assets/96359568-b36c-4694-984f-70ad70cba669)
 
-ToolKit Helper is a **game-changing** Unity Editor tool that simplifies the tedious process of generating static classes from UXML and Unity StyleSheet files. Powered by **Odin Inspector**, this tool helps you convert your UI elements into easy-to-access C# constants, making your code cleaner, more maintainable, and faster to write.
+## Features
 
-Say goodbye to manual labor—ToolKit Helper automates the process of **parsing**, **previewing**, and **generating code** for UXML and StyleSheet assets!
+- **Automated Parsing**: Automatically parses UXML and StyleSheet files, allowing you to avoid manual code writing.
+- **Previewing UXML and Stylesheets**: Quickly preview UI layouts and styles directly within the Unity Editor.
+- **Code Generation**: Simplifies the process of generating C# code from UXML and StyleSheets, reducing the likelihood of errors.
 
-## 🔥 **Key Features**
-- 🖼️ **UXML Element Parser**: Automatically extract element names from your UXML files and generate C# classes for direct access in code.
-- 🔧 **StyleSheet Class Extractor**: Seamlessly parse StyleSheet class names and create constants to ensure styling is easily applied programmatically.
-- ✏️ **Static Class Generation**: Effortlessly generate clean, maintainable, and optimized static classes for UI elements and styles.
-- ⚡ **Odin Inspector Enhanced UI**: Leverages Odin Inspector for a slick, user-friendly editor experience.
-- 📂 **Customizable Paths and Namespaces**: Define custom file paths and namespaces for full control over your generated files.
+## Installation
 
-## 📜 **Table of Contents**
-- [Installation](#installation)
-- [Usage](#usage)
-- [Class Breakdown](#class-breakdown)
-- [Contributing](#contributing)
-- [License](#license)
+1. Clone this repository into your Unity project's `Assets` folder.
+   ```bash
+   git clone https://github.com/Ddemon26/TCS-UIToolKit-Utils.git
+   ```
 
-## 🛠️ **Installation**
-1. **Install Odin Inspector**: This tool requires the [Odin Inspector](https://odininspector.com/) plugin for Unity. Make sure to install it in your project.
-2. **Download ToolKit Helper**: Clone or download the repository from GitHub.
-3. **Open Unity**: Open the Unity project where you've added the tool.
+2. Open the Unity Editor and navigate to `Tools > Tent City Studio > UIToolKit Helper` to start using the tool.
 
-## 🎮 **Usage**
+## Usage
 
- <img src="https://github.com/user-attachments/assets/a02015f7-ace6-40e5-86ed-c915790b9437" width="400" height="325">
- <img src="https://github.com/user-attachments/assets/962d3115-d067-4ba2-8eda-0d8a3bb187e7" width="400" height="325">
+Once the tool is installed, follow these steps:
 
- 
-1. **Open the Tool**: Go to `Tools > UIToolKit Helper` in the Unity menu.
-2. **Select Your Files**: Choose a StyleSheet or UXML file that you want to parse.
-3. **Preview Your Files**: Use the in-editor preview feature to review your StyleSheet or UXML before generating static classes.
-4. **Generate Static Classes**: Click the `Generate Static Classes` button, and ToolKit Helper will automatically create the classes and constants.
-5. **Customization**: Specify custom namespaces and file paths for more control over where your generated classes are saved.
+1. Open the UI Toolkit Helper window via `Tools > Tent City Studio > UIToolKit Helper`.
 
-## 🔍 **Class Breakdown**
+2. In the helper window, select your **UXML** and **StyleSheet** assets. You can drag and drop the files or use the file selector.
 
-### 1. **ParserHelpers**
-Handles parsing UXML and StyleSheet files:
-- **CreateTextArea**: Creates a text preview area in the Unity editor.
-- **ExtractNamesFromUxml**: Traverses a UXML tree and extracts element names.
-- **ExtractClassNamesFromStyleSheet**: Uses regex to extract StyleSheet class names.
+   <img src="https://github.com/user-attachments/assets/a02015f7-ace6-40e5-86ed-c915790b9437" width="400" height="325">
 
-### 2. **StaticClassGenerator**
-Generates static classes from UXML and StyleSheet data:
-- **GenerateStaticClass**: Builds a static class in memory with constants for each UI element or StyleSheet class.
-- **SaveToFile**: Writes the generated class to a file.
+3. Enter a custom namespace if required. This will allow the tool to generate code with the correct context for your project.
 
-### 3. **GeneratorExtensions**
-Helper methods for string manipulation and validation:
-- **ConvertToStatic**: Converts strings into valid C# constant names (replaces `-` with `_`, etc.).
-- **ConvertToAlphanumeric**: Removes non-alphanumeric characters while allowing underscores.
+   <img src="https://github.com/user-attachments/assets/962d3115-d067-4ba2-8eda-0d8a3bb187e7" width="400" height="325">
 
-### 4. **ToolKitHelperEditorWindow**
-The main UI editor window:
-- **GenerateStaticClasses**: Generates static classes from the selected assets (StyleSheets or UXML).
-- **ShowPreview**: Displays a preview of the selected UXML or StyleSheet in Unity.
-- **OnStyleSheetChanged / OnVisualTreeAssetChanged**: Updates previews when assets change.
+4. Click the "Generate Code" button. The tool will automatically generate the required C# classes based on your UXML and StyleSheet files, making them easier to reference in your project.
 
-## 🤝 **Contributing**
-We welcome contributions to this project! Whether you're fixing bugs, adding features, or improving documentation, your help is appreciated. Follow these steps to get started:
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature/AmazingFeature`.
-3. Commit your changes: `git commit -m 'Add some AmazingFeature'`.
-4. Push to the branch: `git push origin feature/AmazingFeature`.
-5. Open a pull request.
+## Contributing
 
-## 📜 **License**
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Contributions are welcome! If you have any ideas, suggestions, or find bugs, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Community
+
+Join our community on [Discord](https://discord.gg/knwtcq3N2a) to get help, share ideas, and collaborate with other developers using TCS UI Toolkit Utils.
+

@@ -10,7 +10,7 @@ using static TCS.UIToolKitUtils.ParserHelpers;
 
 namespace TCS.UIToolKitUtils {
     public class OdinToolKitHelperEditorWindow : OdinEditorWindow {
-        [MenuItem("Tools/TCS/UIToolKit Helper")]
+        [MenuItem("Tools/Tent City Studio/UIToolKit Helper")]
         static void OpenWindow() => GetWindow<OdinToolKitHelperEditorWindow>().Show();
 
         [Title("UIToolKit Helper")]

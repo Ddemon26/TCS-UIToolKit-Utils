@@ -8,7 +8,7 @@ using static ToolKit_Helper.ParserHelpers;
 
 namespace ToolKit_Helper {
     public class ToolKitHelperEditorWindow : EditorWindow {
-        [MenuItem("Tools/TCS/UIToolKit Helper")]
+        [MenuItem("Tools/Tent City Studio/UIToolKit Helper")]
         static void OpenWindow() => GetWindow<ToolKitHelperEditorWindow>().Show();
 
         StyleSheet m_styleSheet;
