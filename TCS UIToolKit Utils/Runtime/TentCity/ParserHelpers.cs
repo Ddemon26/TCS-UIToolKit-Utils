@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 namespace TCS.UIToolKitUtils {
     public static class ParserHelpers {
+#if UNITY_EDITOR
         public const string FILEPATH = "Assets/UI Toolkit/StringLibrary/";
         /// <summary>
         /// Creates a read-only, multi-line text area with the specified text content.
@@ -75,5 +76,6 @@ namespace TCS.UIToolKitUtils {
 
             return classNames;
         }
+#endif
     }
 }

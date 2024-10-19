@@ -75,6 +75,7 @@ namespace TCS.UIToolKitUtils {
         void HidePreviews() => m_scrollView.Clear();
 
         void ShowPreview(string previewType) {
+#if UNITY_EDITOR
             m_scrollView.Clear();
 
             switch (previewType) {
@@ -93,16 +94,21 @@ namespace TCS.UIToolKitUtils {
 
                     break;
             }
+#endif
         }
 
         void OnStyleSheetChanged() {
+#if UNITY_EDITOR
             m_styleSheetPreview = m_styleSheet ? LoadAssetContent(m_styleSheet) : string.Empty;
             ShowFirstPreview();
+#endif
         }
 
         void OnVisualTreeAssetChanged() {
+#if UNITY_EDITOR
             m_uxmlPreview = m_visualTreeAsset ? LoadAssetContent(m_visualTreeAsset) : string.Empty;
             ShowFirstPreview();
+#endif
         }
 
         void ShowFirstPreview() {
@@ -140,17 +146,21 @@ namespace TCS.UIToolKitUtils {
         }
 
         void GenerateStyleSheetClass(string namespaceToUse, string filePath) {
+#if UNITY_EDITOR
             string className = m_styleSheet.name.EndsWith("SS")
                 ? $"{m_styleSheet.name[..^2]}Classes"
                 : $"{m_styleSheet.name}Classes";
             List<string> classNames = ExtractClassNamesFromStyleSheet(m_styleSheet);
             m_staticClassGenerator.SaveToFile(namespaceToUse, className, classNames, filePath, m_maxLength);
+#endif
         }
 
         void GenerateUxmlClass(string namespaceToUse, string filePath) {
+#if UNITY_EDITOR
             var className = $"{m_visualTreeAsset.name}Strings";
             List<string> nameVariables = ExtractNamesFromUxml(m_visualTreeAsset);
             m_staticClassGenerator.SaveToFile(namespaceToUse, className, nameVariables, filePath, m_maxLength);
+#endif
         }
     }
 }
