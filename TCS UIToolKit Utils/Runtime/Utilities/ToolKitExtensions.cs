@@ -2,56 +2,60 @@ using UnityEngine;
 using UnityEngine.UIElements;
 
 // Static class to hold extension methods
-public static class ExtensionMethods
-{
+public static class ToolKitExtensions {
+    static void SetEnabled(this VisualElement element, bool enabled) {
+        element.SetEnabled(enabled);
+        element.style.display = enabled ? DisplayStyle.Flex : DisplayStyle.None;
+    }
+    
+    static void SetToggleElement(this ToggleButtonGroup element, int index, bool display) {
+        element[index].style.display = display ? DisplayStyle.Flex : DisplayStyle.None;
+    }
+
     // Resets the Transform's position, rotation, and scale to their defaults.
-    public static void ResetTransformation(this Transform trans)
-    {
+    public static void ResetTransformation(this Transform trans) {
         trans.position = Vector3.zero;
         trans.localRotation = Quaternion.identity;
         trans.localScale = new Vector3(1, 1, 1);
     }
 
     // Returns the world space position of the center of a VisualElement
-    public static Vector3 GetWorldPosition(this VisualElement visualElement, Camera camera = null, float zDepth = 10f)
-    {
-        if (camera == null)
+    public static Vector3 GetWorldPosition(this VisualElement visualElement, Camera camera = null, float zDepth = 10f) {
+        if (!camera)
             camera = Camera.main;
 
         var worldPos = Vector3.zero;
 
-        if (camera == null || visualElement == null)
+        if (!camera || visualElement == null)
             return worldPos;
 
         return visualElement.worldBound.center.ScreenPosToWorldPos(camera, zDepth);
     }
 
     // Converts a UI Toolkit screen position to world space.
-    public static Vector3 ScreenPosToWorldPos(this Vector2 screenPos, Camera camera = null, float zDepth = 10f)
-    {
+    public static Vector3 ScreenPosToWorldPos(this Vector2 screenPos, Camera camera = null, float zDepth = 10f) {
 
-        if (camera == null)
+        if (!camera)
             camera = Camera.main;
 
-        if (camera == null)
+        if (!camera)
             return Vector2.zero;
 
         float xPos = screenPos.x;
         float yPos = screenPos.y;
         var worldPos = Vector3.zero;
 
-        if (!float.IsNaN(screenPos.x) && !float.IsNaN(screenPos.y) && !float.IsInfinity(screenPos.x) && !float.IsInfinity(screenPos.y))
-        {
+        if (!float.IsNaN(screenPos.x) && !float.IsNaN(screenPos.y) && !float.IsInfinity(screenPos.x) && !float.IsInfinity(screenPos.y)) {
             // convert to world space position using Camera class
             var screenCoord = new Vector3(xPos, yPos, zDepth);
             worldPos = camera.ScreenToWorldPoint(screenCoord);
         }
+
         return worldPos;
     }
 
     // Gets screen coordinates from a UI Toolkit ClickEvent position.
-    public static Vector2 GetScreenCoordinate(this Vector2 clickPosition, VisualElement rootVisualElement)
-    {
+    public static Vector2 GetScreenCoordinate(this Vector2 clickPosition, VisualElement rootVisualElement) {
         // Adjust the clickPosition for the borders (for the SafeAreaBorder)
         float borderLeft = rootVisualElement.resolvedStyle.borderLeftWidth;
         float borderTop = rootVisualElement.resolvedStyle.borderTopWidth;
@@ -68,8 +72,7 @@ public static class ExtensionMethods
     }
 
     // Normalizes a UI Toolkit ClickEvent position to a range between (0,0) to (1,1).
-    public static Vector2 NormalizeClickEventPosition(this Vector2 clickPosition, VisualElement rootVisualElement)
-    {
+    public static Vector2 NormalizeClickEventPosition(this Vector2 clickPosition, VisualElement rootVisualElement) {
         // Get a Rect that represents the boundaries of the screen in UI Toolkit
         var rootWorldBound = rootVisualElement.worldBound;
 
@@ -83,25 +86,22 @@ public static class ExtensionMethods
     }
 
     // Aligns a VisualElement's position with a specified world position.
-    public static void MoveToWorldPosition(this VisualElement element, Vector3 worldPosition, Vector2 worldSize)
-    {
+    public static void MoveToWorldPosition(this VisualElement element, Vector3 worldPosition, Vector2 worldSize) {
         var rect = RuntimePanelUtils.CameraTransformWorldToPanelRect(element.panel, worldPosition, worldSize, Camera.main);
         element.transform.position = rect.position;
     }
 
     // Keeps a VisualElement within the camera viewport
-    public static void ClampToScreenBounds(this VisualElement element, Camera camera = null)
-    {
+    public static void ClampToScreenBounds(this VisualElement element, Camera camera = null) {
         camera ??= Camera.main;
-        if (camera == null || element == null)
+        if (!camera || element == null)
             return;
 
         // Calculate bounding rectangle for the entire hierarchy
         var boundingRect = new Rect(element.worldBound.position, element.worldBound.size);
 
         //// Extend the boundaries for any child elements
-        foreach (var child in element.Children())
-        {
+        foreach (var child in element.Children()) {
             var childRect = child.worldBound;
             boundingRect.xMin = Mathf.Min(boundingRect.xMin, childRect.xMin);
             boundingRect.xMax = Mathf.Max(boundingRect.xMax, childRect.xMax);
@@ -117,11 +117,9 @@ public static class ExtensionMethods
 
         // Convert back to world position and set
         var newWorldPosition = camera.ViewportToWorldPoint(viewportPosition);
-       
+
         var offset = newWorldPosition - new Vector3(boundingRect.center.x, boundingRect.center.y, newWorldPosition.z);
 
         element.transform.position += offset;
     }
-
-
 }
