@@ -3,12 +3,6 @@ using System;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 namespace UIToolkitDemo {
-    public static class MediaQueryEvents {
-        public static Action<Vector2> ResolutionUpdated;
-        public static Action<MediaAspectRatio> AspectRatioUpdated;
-    }
-
-    // Categorize by aspect ratio
     public enum MediaAspectRatio {
         Undefined,
         Landscape,
