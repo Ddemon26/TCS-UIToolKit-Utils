@@ -1,20 +1,14 @@
-using System;
 using UnityEngine;
 using UnityEngine.UIElements;
 namespace UIToolkitDemo {
-    public static class ThemeEvents {
-        public static Action<Camera> CameraUpdated;
-    }
-
-    /// Aligns a GameObject's position to a specified VisualElement
     public class PositionToVisualElement : MonoBehaviour {
         [Header("Transform")]
         [SerializeField] GameObject m_objectToMove;
-        
+
         [Header("Camera parameters")]
         [SerializeField] Camera m_camera;
         [SerializeField] float m_depth = 10f;
-        
+
         [Header("UI Target")]
         [SerializeField] UIDocument m_document;
         [SerializeField] string m_elementName;
