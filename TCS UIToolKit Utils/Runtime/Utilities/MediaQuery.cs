@@ -6,7 +6,7 @@ namespace UIToolkitDemo {
     public enum MediaAspectRatio {
         Undefined,
         Landscape,
-        Portrait
+        Portrait,
     }
 
     [ExecuteInEditMode]
